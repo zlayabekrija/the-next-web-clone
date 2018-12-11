@@ -19,9 +19,13 @@
     width: 106px;
     will-change: height;
     display: inline-block;
+    float:left;
 }
 .time {
-   display: inline-block;
+    display: flex;
+    width: 35%;
+    float: left;
+    height: 48px;
 }
 .icon {
     display: inline-block;
@@ -48,4 +52,9 @@
 .logo-nextweb {
     width: 75%;
     height: auto;
+}
+.nums{
+    width: 100%;
+    text-align:center;
+    margin: auto;
 }
