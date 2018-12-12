@@ -1,3 +1,4 @@
+/* start - mobile first layout for viewport less than 768 */
 .head {
     background: #fff;
     -webkit-box-shadow: 0 0 32px rgba(0, 0, 0, .15);
@@ -392,4 +393,49 @@ h2 {
     text-align: center;
 }
 
+.black-header {
+    display: none;
+}
+
 /* ******************************** end of the mobile models***************************************************** */
+/* start of more than 768px viewport */
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+
+    .time,
+    .fa-bars {
+        display: none !important;
+    }
+
+    .logo {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .head-spacer {
+        height: 110px;
+    }
+
+    .black-header {
+        display: inline-block;
+        background-color: #000;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    .black-li {
+        display: inline-block;
+    }
+
+    .black-ul {
+        background: #131313;
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 32px;
+        max-height: 32px;
+        z-index: 2;
+    }
+}
