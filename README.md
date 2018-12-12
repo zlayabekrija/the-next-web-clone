@@ -1,6 +1,6 @@
 ## The Next Web Clone
 
-This project is the collaboration of [Zlatan](https://github.com/zlayabekrija) & [Inzi](https://github.com/inhaq). [Perview this project](https://zlayabekrija.github.io/the-next-web-clone/)
+This project is the collaboration of [Zlatan](https://github.com/zlayabekrija) & [Inzi](https://github.com/inhaq). [Preview this project](https://zlayabekrija.github.io/the-next-web-clone/)
 
 To enhance and practice our HTML5/CSS3 knowledge, we tried to clone design of The Next Web site. 
 
