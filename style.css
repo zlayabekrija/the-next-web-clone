@@ -200,9 +200,9 @@ h2 {
 }
 .sub-news {
     display: inline-block;
-    display: inline-block;
     box-sizing: border-box; 
     padding-bottom: 5px;
+    width: 100%;
 }
 .finances {
     margin-top: 50px;
@@ -299,6 +299,7 @@ h2 {
     display: inline-block;
     box-sizing: border-box;
     padding: 5px;
+    width: 100%;
 }
 .sub-article-image {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/1C6FhvL-540x270.jpg);
@@ -308,7 +309,7 @@ h2 {
     background-size: cover;
     padding-top: 75px;
     width: 75px;
-    float: left;
+    float: right;
 }
 .sub-article-text {
     float: left;
@@ -323,5 +324,36 @@ h2 {
     border-bottom: 1px solid rgba(10,10,10,.2);
     color: #aaa;
     padding: 5px;
+}
+.top-footer {
+    background: #131313;
+    padding: 2.5em 0;
+}
+.bottom-footer {
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    padding: 2.5em 0;
+}
+.social {
+    background: #333;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    padding: 12px;
+    text-align: center;
+    width: 25px;
+    font-size: 1.4em;
+    color: #fff;
+}
+.footer-link {
+    display: inline-block;
+}
+.out-footer {
+    color: #fff;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    font-size: 1.1em;
 }
 /* ******************************** end of the mobile models***************************************************** */
