@@ -177,20 +177,20 @@ h2 {
     color: #f42;
     font-weight: 700;
     line-height: 1.1;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     font-size: 28px;
 }
 
 .news-text {
     float: right;
-    width: 66%;
+    width: calc(100% - 85px);
 }
 
 .news-title {
     overflow: hidden;
-    font-size: 16px!important;
+    font-size: 16px !important;
     font-weight: 700;
-    line-height: 18px!important;
+    line-height: 18px !important;
 }
 
 .sub-title {
@@ -198,38 +198,45 @@ h2 {
     color: #aaa;
     font-size: 12px;
 }
+
 .sub-news {
     display: inline-block;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     padding-bottom: 5px;
     width: 100%;
 }
+
 .finances {
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 10px 20px;
     overflow: hidden;
 }
+
 .header-contact {
     font-size: 14px;
     color: #f42;
     margin-bottom: 10px;
 }
+
 .statement {
     background-color: #fffaf8;
     position: relative;
     display: block;
 }
+
 .bottom-rectangle {
     padding: 10.66666667px 16px;
     padding-left: 84px;
     color: #000;
-    background: rgba(255,68,34,.08);
+    background: rgba(255, 68, 34, .08);
     margin: 0;
     font-size: 18px;
 }
-.bottom-rectangle > h5 {
+
+.bottom-rectangle>h5 {
     opacity: .5;
 }
+
 .top-rectangle {
     padding: 10.66666667px 16px;
     padding-left: 84px;
@@ -237,13 +244,14 @@ h2 {
     margin: 0;
     background: #f42;
     color: #fff;
-    margin: 0!important;
-    font-size: 18px!important;
+    margin: 0 !important;
+    font-size: 18px !important;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.absolute-square{
+
+.absolute-square {
     width: 60px;
     min-width: 60px;
     max-width: 60px;
@@ -258,6 +266,7 @@ h2 {
     background: url("https://index.tnwcdn.com/images/8a29ca9f97ea4c465f61cd37818b1341e4884258.jpg") 0px 0px;
     background-size: 100%;
 }
+
 .events {
     color: #000;
     background-color: #fffaf8;
@@ -265,15 +274,17 @@ h2 {
     height: 15vh;
     display: block;
     width: 100%;
-    border-bottom: 1px solid rgba(255,68,34,.5);
+    border-bottom: 1px solid rgba(255, 68, 34, .5);
 }
+
 .event-names {
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
     float: left;
 }
-.description{
+
+.description {
     color: #555;
     background-color: #fffaf8;
     margin: 0;
@@ -286,14 +297,17 @@ h2 {
     box-sizing: border-box;
     padding: 18px;
 }
-.description > span {
+
+.description>span {
     opacity: .5;
 }
+
 .hard-fork {
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px 20px;
     overflow: hidden;
 }
+
 .sub-article {
     background-color: #fffaf8;
     display: inline-block;
@@ -301,6 +315,7 @@ h2 {
     padding: 5px;
     width: 100%;
 }
+
 .sub-article-image {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/1C6FhvL-540x270.jpg);
     background-color: #000;
@@ -311,30 +326,39 @@ h2 {
     width: 75px;
     float: right;
 }
+
 .sub-article-text {
     float: left;
     color: #f42;
     width: 72%;
     font-weight: 800;
 }
-.sub-article-text > span {
+
+.sub-article-text>span {
     font-weight: 100;
 }
+
 .list {
-    border-bottom: 1px solid rgba(10,10,10,.2);
+    border-bottom: 1px solid rgba(10, 10, 10, .2);
     color: #aaa;
     padding: 5px;
 }
+
 .top-footer {
     background: #131313;
     padding: 2.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .bottom-footer {
     background: #000;
     color: #aaa;
     font-size: 13px;
     padding: 2.5em 0;
 }
+
 .social {
     background: #333;
     border-radius: 50%;
@@ -346,14 +370,26 @@ h2 {
     font-size: 1.4em;
     color: #fff;
 }
+
 .footer-link {
     display: inline-block;
+    margin-right: 10px;
+    opacity: 0.5;
 }
+
 .out-footer {
     color: #fff;
     margin: auto;
     width: 85%;
     text-align: center;
     font-size: 1.1em;
+    margin-top: 25px;
 }
+
+.footer-text {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
 /* ******************************** end of the mobile models***************************************************** */
